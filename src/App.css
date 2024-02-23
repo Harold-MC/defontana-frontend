@@ -1,0 +1,58 @@
+.banner {
+  background-image: url(./assets/pokemon-banner3.png);
+  height: 230px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.banner__title {
+  font-weight: "bold";
+  font-size: 32px;
+  line-height: 0.5;
+  color: white;
+  text-shadow: "1px 1px 2px #000";
+}
+
+.card-item {
+
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 10px;
+  height: 100%;
+}
+
+.pokemon__details {
+  transition: all 0s ease;
+  border-left: 1px #000 solid;
+  padding: 20px;
+  box-shadow: -5px 0px 5px -5px rgba(0, 0, 0, 0.5);
+}
+
+.pokemon__details--close {
+  text-decoration: underline;
+  color: gray;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.pokemon__details--title {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 32px;
+}
+
+.pokemon__details--info {
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 5px;
+}
